@@ -1,6 +1,6 @@
 import { GetStaticProps } from 'next';
 import React, { useEffect, useState } from 'react';
-import { Button, Htag, P, Rating, Tag } from '../components';
+import { Button, Htag, Input, P, Rating, Tag, Textarea } from '../components';
 import { Layout, withLayout } from '../layout/Layout';
 import axios from 'axios'
 import { MenuItem } from '../interfaces/menu.interface';
@@ -21,7 +21,8 @@ function Home({menu}: HomeProps): JSX.Element {
       <Tag size={"m"} color={"green"}>green</Tag>
       <Tag size={"m"} color={"primary"}>primary</Tag>
       <Rating isEditable setRating={setRating} rating={rating}/>
-      
+      <Input placeholder='test'/>
+      <Textarea placeholder='test'/>
     </>
   )
 }
