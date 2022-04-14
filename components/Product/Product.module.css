@@ -46,8 +46,6 @@
 
 .logo img {
 	border-radius: 5px;
-    width: 70px;
-    height: 70px;
 }
 
 .title {
@@ -144,19 +142,31 @@
 }
 
 .characteristicsDots {
-	margin-bottom: 5px;
+	margin-top: 22px;
 
-	border-bottom: 1px dashed var(--gray-light);
+	border-bottom: 1px dashed var(--grey-light);
 }
 
 .reviews {
 	overflow: hidden;
 
 	padding: 30px;
+	/* margin-top: -30px; */
 }
 
 .rateTitle a {
 	color: var(--primary);
+}
+
+.closed {
+	overflow: hidden;
+	max-height: 0;
+	padding: 0;
+}
+
+.opened {
+	max-height: auto;
+	padding: 30px;
 }
 
 @media screen and (max-width: 1320px) {
@@ -242,7 +252,7 @@
 	}
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 840px) {
 	.product {
 		grid-template-columns: 70px 30px 1fr;
 		grid-template-areas:

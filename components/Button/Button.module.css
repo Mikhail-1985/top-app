@@ -41,7 +41,7 @@
 }
 
 .right {
-
+    transition: all 0.2s;
 }
 
 .primary svg,

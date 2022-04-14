@@ -10,7 +10,7 @@ export const Sidebar = ({className, ...props}: SidebarProps): JSX.Element => {
     return (
         <div className={cn(className, styles.sidebar)} {...props}>
             {/* <Logo className={styles.logo} /> */}
-            <span className={styles.logo}>Наш Топ</span>
+            <span className={styles.logo}>Мой Топ</span>
             <div>
                 <Search />
             </div>
