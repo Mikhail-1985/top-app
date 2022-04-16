@@ -28,7 +28,7 @@
 
     font-weight: 300;
     font-size: 12px;
-    line-height: 16px
+    outline-offset: -1px;
 }
 
 .secondBlock {
@@ -46,10 +46,10 @@ overflow: hidden;
     display: block;
     font-weight: 500;
     font-size: 14px;
-    line-height: 19px;
     margin-bottom: 10px;
     cursor: pointer;
     color: var(--gray-dark);
+    outline-offset: -1px;
 
 }
 
