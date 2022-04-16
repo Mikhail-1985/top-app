@@ -2,7 +2,8 @@
     display: grid;
     align-content: start;
     gap: 20px;
-    position: fixed;
+    /* position: fixed;
+    overflow-y: scroll; */
 }
 
 .logo {
