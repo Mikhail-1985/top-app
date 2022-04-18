@@ -2,9 +2,11 @@ html,
 body {
 	margin: 0;
 	padding: 0;
+
 	color: var(--black);
 	background: #F5F6F8;
-	font-family: 'Noto Sans', sans-serif;
+
+	font-family: "Noto Sans", sans-serif;
 }
 
 a {
@@ -32,11 +34,11 @@ a {
 	--grey: #A4A4A4;
 	--grey-dark: #787D85;
 	--white: white;
-	--primary: #563cb7;
-	--primary-hover: #6741fd;
+	--primary: #563CB7;
+	--primary-hover: #6741FD;
 	--red: #FC836D;
 	--red-light: #FEA291;
-	--green: #007B48;;
+	--green: #007B48;
 	--green-light: #C8F8E4;
-	--font-family: 'Noto Sans', sans-serif;
+	--font-family: "Noto Sans", sans-serif;
 }

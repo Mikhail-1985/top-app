@@ -1,16 +1,18 @@
 .sidebar {
-    display: grid;
-    align-content: start;
-    gap: 20px;
-    /* position: fixed;
+	display: grid;
+	align-content: start;
+	gap: 20px;
+
+	/* position: fixed;
     overflow-y: scroll; */
 }
 
 .logo {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 49px;
+	text-align: center;
 
-    text-align: center;
-    color: var(--primary);
+	color: var(--primary);
+
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 49px;
 }

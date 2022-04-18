@@ -9,7 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "styleint": "stylelint \"**/*.css\" --fix"
+    "stylelint": "stylelint \"**/*.css\" --fix"
   },
   "dependencies": {
     "axios": "^0.26.1",
