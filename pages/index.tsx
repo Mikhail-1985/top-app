@@ -5,6 +5,7 @@ import { Layout, withLayout } from '../layout/Layout';
 import axios from 'axios'
 import { MenuItem } from '../interfaces/menu.interface';
 import { API } from '../helpers/api';
+import styles from '../styles/main.module.css'
 
 function Home({menu}: HomeProps): JSX.Element {
 
@@ -12,18 +13,11 @@ function Home({menu}: HomeProps): JSX.Element {
 
   return (
     <>
-        <Htag tag={'h1'} >some text</Htag>
-      <Button appearance='primary' arrow={'right'}>+</Button>
-      <Button appearance='ghost' arrow={'right'}>-</Button>
-      <P size={"s"}>Some text</P>
-      <P size={"m"}>Some text</P>
-      <P size={"l"}>Some text</P>
-      <Tag size={"m"} color={"red"}>red</Tag>
-      <Tag size={"m"} color={"green"}>green</Tag>
-      <Tag size={"m"} color={"primary"}>primary</Tag>
-      <Rating isEditable setRating={setRating} rating={rating}/>
-      <Input placeholder='test'/>
-      <Textarea placeholder='test'/>
+        <Htag tag={'h1'}>
+          <span className={styles.h1}>
+            Добро пожаловать в рейтинг самых популярный курсов
+          </span>
+        </Htag>
     </>
   )
 }

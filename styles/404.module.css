@@ -1,0 +1,25 @@
+.span {
+    font-size: 32px;
+    text-align: start;
+    /* max-width: 1280px; */
+    /* transition: 6s ease; */
+    animation: flicker 3s infinite alternate;
+    color: #fff;
+}
+
+@keyframes flicker {
+    0%, 11%, 21%, 31%, 50%, 75%{
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px var(--primary),
+        0 0 80px var(--primary),
+        0 0 90px var(--primary),
+        0 0 100px var(--primary),
+        0 0 150px var(--primary);
+    }
+    18%, 25%, 45%, 70%, 100% {
+        text-shadow: none;
+    }
+}
