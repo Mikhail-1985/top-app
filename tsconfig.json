@@ -8,6 +8,7 @@
     ],
     "allowJs": false, //поменял
     "skipLibCheck": true,
+    "noImplicitAny": false,
     "strict": true, //поменял
     "strictPropertyInitialization": false, //добавил новое
     "forceConsistentCasingInFileNames": true,
